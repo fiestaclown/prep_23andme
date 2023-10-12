@@ -1,0 +1,9 @@
+Just fill all the text files into data/ and navigate to the main directory of the repo. 
+
+The main R script has two input paramater 
+$1 defines how many threads SHOULD NOT BE USED (left for other operation). If 0 this will use all avaible threads for all tasks
+$2 logical - 1 to donwload all necessary resources and 0 skips this. Those include reference files needed for data preparation. Unpacked this will be around 100GB
+
+Just run Rscript src/main_script.R 2 1 if you are unsure which paramater to choose. 
+
+Downloading the resources might take a while. 
